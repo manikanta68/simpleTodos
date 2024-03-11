@@ -24,3 +24,20 @@
   font-size: 30px;
   font-family: 'Roboto';
 }
+.inputFiled {
+  display: flex;
+  align-items: center;
+  border: solid 1px coral;
+  border-radius: 3px;
+}
+.input {
+  border: none;
+  outline: none;
+  padding: 5px;
+}
+
+.addButton {
+  border: none;
+  outline: none;
+  padding: 5px;
+}

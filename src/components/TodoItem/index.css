@@ -15,6 +15,10 @@
   font-family: 'Roboto';
   color: #000000;
   margin-right: 20px;
+  margin-left: 5px;
+}
+.textDecoration {
+  text-decoration: line-through;
 }
 .button {
   height: 23px;
@@ -25,4 +29,33 @@
   border-width: 1px;
   background-color: #ffffff;
   border-radius: 3px;
+  margin-left: 40px;
+}
+.editAndSaveButton {
+  height: 23px;
+  width: 50px;
+  font-size: 12px;
+  color: blue;
+  border-color: blue;
+  border-width: 1px;
+  background-color: #ffffff;
+  border-radius: 3px;
+  margin-left: 5px;
+}
+.extra {
+  color: green;
+  border-color: green;
+}
+
+.editableTextInput {
+  width: 70%;
+  padding: 3px;
+  margin-bottom: 10px;
+  border: none;
+  outline: none;
+}
+
+.checkWithPara {
+  display: flex;
+  align-items: center;
 }
